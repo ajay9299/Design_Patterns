@@ -10,7 +10,7 @@ class User {
     }
     return this.instance;
   }
-
+  //  Hi
   public getUserInfo() {
     return {
       name: User.userName,
