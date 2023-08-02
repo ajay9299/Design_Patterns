@@ -20,3 +20,6 @@ class User {
 }
 
 const newInstanceOfUser = User.getInstance();
+const newInstanceOfUserAgin = User.getInstance();
+
+console.log(newInstanceOfUser === newInstanceOfUserAgin);
